@@ -1,0 +1,87 @@
+1.1.2 How to communicate with the computer
+
+    We use computers mainly because they are able to perform certain tasks incomparably faster and more accurately than 
+    people. However, computers cannot guess what kinds of tasks we have in mind or how to help us perform them. We have 
+    to tell them that. How? It's best to do so in a similar way as when passing information to other people, in other 
+    words, by using a language that is understandable to both sides. Using such a language, we write a program, a 
+    formalized solution to our problem, which can be executed by the computer.
+
+    Unfortunately, a language that is directly understandable by a computer will be absolutely illegible to a regular 
+    human being. It would be a sequence of bizarre instructions, written in numerical form, referring to computer 
+    components we didn’t even know existed. This way of communication, which dates from the beginning of computing, is 
+    nowadays used extremely rarely, and only in very specific situations.
+
+    So in order to help in communication with the computer, programming languages were invented that are somewhat 
+    similar to natural languages.
+
+1.1.3 JavaScript as an interpreted language
+
+    JavaScript is a typical interpreted language. If we run a code written in JavaScript in a web browser, the interpreter 
+    will be the JavaScript engine built into the browser. This is not the only way to execute JavaScript code.
+
+    Perhaps you have heard of node.js. It is also an interpreter, but installed independently of browsers as an environment 
+    in the computer's operating system (it can be macOS, Windows, or Linux). Using node.js allows you to write programs in 
+    JavaScript that will, for example, turn your computer into a server.
+
+1.1.5 Client-side vs server-side programming
+
+    The use of JavaScript on websites, which over time has become more and more complex and often contain very sophisticated 
+    logic, is called client-side programming. The code to be executed is loaded together with the page in the browser, on 
+    the user's side, and the interpreter which is a part of the web browser allows for its execution.
+
+    JavaScript offers many great frameworks on which to build huge, complex web applications and social networks (you've 
+    probably heard the names of frameworks like React or Angular).
+
+    Thanks to the power of JavaScript, we can order food, play browser-based games, watch movies on streaming platforms, 
+    and be in constant contact with the people important to us. JavaScript is so popular that continually more and more 
+    effort goes into using it, not only as a client-side solution.
+
+    Over time, JavaScript began to appear in other areas, such as programming the server-side parts of complex web 
+    applications, also called back-end. These programs are executed on servers, processing data (e.g. from databases), 
+    which after processing will be available on the client side. The flexibility of this language and its relative 
+    simplicity have made it much more applicable, for example, in mobile apps, or even in programming UAVs (some drones 
+    run programs written in this language).
+
+1.1.6 Is this the perfect programming language? – disadvantages
+
+    There are no good programming languages for all applications. Each of them has its own limitations, and it’s no 
+    different with JavaScript. Despite its popularity and success, JavaScript is not a perfect programming language. 
+    Due to its nature, it is not suitable for certain applications. For example, there is no point in using it to write 
+    programs that require advanced mathematical calculations or very high performance.
+
+    Some limitations are due to the very concept of the language, but the vast majority are related to the platform on 
+    which we use it. This is especially visible when writing code to be executed in a browser, which as we said earlier 
+    is called client-side. In such a situation, JavaScript is limited in functionality by the fact that browsers, for 
+    security reasons, run script code in a sandbox environment (an environment separated from the outer world), which 
+    doesn’t allow for access to local files and resources (i.e. those files that are on the computer where the browser 
+    is launched).
+
+    Another inconvenience is that since the code is not compiled, it goes into the browser in the same, or a very 
+    similar, form to what we wrote ourselves. Why is this a disadvantage? This is because everyone can see our 
+    solution in an easy-to-read form and use it (either fragments of it or even the whole of it) without our 
+    permission to write their own program.
+
+1.1.7 Is this the perfect programming language? – advantages
+
+    JavaScript has many advantages over other programming languages, and one of the biggest is a very active and 
+    supportive community. It is easy to find solutions to common problems, and to find help in general. This also
+    means that tools that work with JavaScript are actively developed.
+
+    Another big plus is a huge number of ready-to-use frameworks and libraries that provide most of the commonly 
+    required functionalities and features. The language itself is relatively easy to learn, and allows us to focus 
+    on the job instead of fighting with the syntax (that is, the way of building the instructions which make up the
+    code of our program).
+
+    Additionally, JavaScript doesn’t require you to buy expensive tools to work with it, and really good tools are 
+    already embedded inside your web browser. Last but not least, big players like Google, Facebook, and Mozilla 
+    actively support JavaScript tools and their development.
+
+1.1.8 Let's get ready to work
+
+    As we mentioned earlier, JavaScript can be used in various environments, although most often it will be a web 
+    browser or a server with a node.js environment.
+
+    Each environment imposes a slightly different way of using this language, and some mechanisms or functions 
+    characteristic to it appear.
+
+    However, the essential part of the language, its core, remains the same.
